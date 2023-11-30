@@ -47,6 +47,27 @@ $epicode: (
 );
 $theme-colors: map-merge($theme-colors, $epicode);
 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  3xl: 1600px,
+  4xl: 1800px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+  3xl: 1520px,
+  4xl: 1720px,
+);
+
 @import "./bootstrap/scss/maps";
 @import "./bootstrap/scss/mixins";
 @import "./bootstrap/scss/utilities";
